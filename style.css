@@ -1,0 +1,175 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    color: rgb(219, 138, 192);
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #e497d0;
+}
+
+/* HERO */
+.hero {
+    background-color: #df93d0;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+/* PROFILE */
+.Profile {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(205, 120, 185);
+}
+
+.Profile img {
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+.profile-text h2 {
+    margin-bottom: 10px;
+}
+
+/* INFORMASI */
+.Informasi {
+    padding: 50px;
+    background-color: #d993c3;
+    text-align: center;
+}
+
+.Informasi h1 {
+    margin-bottom: 15px;
+}
+
+/* MEDIA */
+.Media {
+    padding: 50px;
+    background-color: rgb(209, 126, 174);
+    text-align: center;
+}
+
+.media-foto img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.media-video video {
+    width: 300px;
+    margin: 10px;
+}
+
+.media-audio {
+    margin-top: 20px;
+}
+
+/* PROJECT */
+.Project {
+    padding: 50px;
+    background-color: #d482bf;
+    text-align: center;
+}
+
+.subtitle {
+    margin-bottom: 30px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    background-color: rgb(197, 117, 182);
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* KONTAK */
+.kontak {
+    padding: 50px;
+    background-color: rgb(211, 143, 195);
+}
+
+.kontak-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.kontak-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.kontak-form input,
+.kontak-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.kontak-form button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #00bcd4;
+    border: none;
+    color: rgb(214, 128, 184);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.kontak-form button:hover {
+    background-color: #0097a7;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
